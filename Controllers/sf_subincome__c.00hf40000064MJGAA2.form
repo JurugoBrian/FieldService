@@ -1,0 +1,27 @@
+﻿<EntityForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:dummy="0" flexi="0" fleximode="1" fullscreen="0" resize="0" version="2">
+  <IsContactForm>false</IsContactForm>
+  <EntityName>sf_subincome__c</EntityName>
+  <CamelCase>sf_subincome__c</CamelCase>
+  <PrimaryCommands>!defcmd</PrimaryCommands>
+  <EnabledWorkflows>OnLoadEnabled OnChangeEnabled OnSaveEnabled OnExecuteCommand OnCanExecuteCommand</EnabledWorkflows>
+  <SerializedChildrenV2>
+    <FormTab xsi:type="DetailTab">
+      <Name>General</Name>
+      <SerializedChildren>
+        <DetailItem SchemaName="Information" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="name"/>
+        <DetailItem SchemaName="parentincome__c"/>
+        <DetailItem SchemaName="revenue__c"/>
+        <DetailItem SchemaName="profit__c"/>
+        <DetailItem SchemaName="business_start_capital__c"/>
+        <DetailItem SchemaName="business_number_employees__c"/>
+        <DetailItem SchemaName="business_type__c"/>
+        <DetailItem SchemaName="business_name__c"/>
+        <DetailItem SchemaName="business_location__c"/>
+        <DetailItem SchemaName="ownerid2"/>
+      </SerializedChildren>
+    </FormTab>
+  </SerializedChildrenV2>
+</EntityForm>
