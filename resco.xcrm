@@ -284,59 +284,19 @@
     </entity>
     <entity schema="sf_account" haslabels="true">
       <properties>
-        <property schema="annualrevenue"/>
-        <property schema="birthdate__c"/>
-        <property schema="cohort__c"/>
+        <property schema="billinglatitude"/>
+        <property schema="billinglongitude"/>
         <property schema="createdon"/>
-        <property schema="hh_members_manual__c"/>
-        <property schema="household_status__c"/>
         <property schema="id"/>
         <property schema="id2"/>
-        <property schema="lastmodifieddate"/>
-        <property schema="lastvieweddate"/>
-        <property schema="marital_status__c"/>
         <property schema="modifiedon"/>
-        <property schema="most_recent_survey__c"/>
         <property schema="name"/>
-        <property schema="npe01__one2onecontact__c"/>
-        <property schema="npo02__householdphone__c"/>
-        <property schema="npo02__membershipjoindate__c"/>
-        <property schema="npsp__number_of_household_members__c"/>
-        <property schema="ownerid2"/>
-        <property schema="ownership"/>
-        <property schema="parentid"/>
+        <property schema="shippinglatitude"/>
+        <property schema="shippinglongitude"/>
         <property schema="single_home_coord__latitude__s"/>
         <property schema="single_home_coord__longitude__s"/>
-        <property schema="status__c"/>
-        <property schema="subcounty__c"/>
-        <property schema="survey__c"/>
       </properties>
       <indexes>
-        <index schema="idx_sf_account_most_recent_survey__c" issystem="true">
-          <fields>
-            <field schema="most_recent_survey__c"/>
-          </fields>
-        </index>
-        <index schema="idx_sf_account_npe01__one2onecontact__c" issystem="true">
-          <fields>
-            <field schema="npe01__one2onecontact__c"/>
-          </fields>
-        </index>
-        <index schema="idx_sf_account_ownerid2" issystem="true">
-          <fields>
-            <field schema="ownerid2"/>
-          </fields>
-        </index>
-        <index schema="idx_sf_account_parentid" issystem="true">
-          <fields>
-            <field schema="parentid"/>
-          </fields>
-        </index>
-        <index schema="idx_sf_account_survey__c" issystem="true">
-          <fields>
-            <field schema="survey__c"/>
-          </fields>
-        </index>
         <index schema="idx_sf_account_name" issystem="true">
           <fields>
             <field schema="name"/>
