@@ -284,17 +284,29 @@
     </entity>
     <entity schema="sf_account" haslabels="true">
       <properties>
+        <property schema="billingcity"/>
+        <property schema="billingcountry"/>
         <property schema="billinglatitude"/>
         <property schema="billinglongitude"/>
+        <property schema="billingpostalcode"/>
+        <property schema="billingstate"/>
+        <property schema="billingstreet"/>
         <property schema="createdon"/>
+        <property schema="district__c"/>
         <property schema="id"/>
         <property schema="id2"/>
         <property schema="modifiedon"/>
         <property schema="name"/>
+        <property schema="shippingcity"/>
+        <property schema="shippingcountry"/>
         <property schema="shippinglatitude"/>
         <property schema="shippinglongitude"/>
+        <property schema="shippingpostalcode"/>
+        <property schema="shippingstate"/>
+        <property schema="shippingstreet"/>
         <property schema="single_home_coord__latitude__s"/>
         <property schema="single_home_coord__longitude__s"/>
+        <property schema="subcounty__c"/>
       </properties>
       <indexes>
         <index schema="idx_sf_account_name" issystem="true">
