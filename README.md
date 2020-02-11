@@ -1,2 +1,2 @@
 # FieldService
-RESCO Woodford Customised Mobile CRM
+Mobile App configurations
