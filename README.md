@@ -1,2 +1,2 @@
 # FieldService
-Mobile App configurations
+RESCO Mobile App
