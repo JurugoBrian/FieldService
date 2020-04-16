@@ -1,2 +1,2 @@
 # FieldService
-RESCO Mobile App
+RESCO Field Service App
